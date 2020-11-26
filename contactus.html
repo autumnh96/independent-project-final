@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--
+        Author:   Autumn Hancock
+        Date:     11-25-2020
+        CITC 1300-R51 Independent Project 4
+    -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width-device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Staatliches&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <p class="skipnavigation"><a href="#contentstart">Skip Navigation</a></p>
+    <header>
+        <h1>Cheese Louise</h1>
+        <h3>It doesn't get feta than this!</h3>
+    </header>
+    <nav class="sitenavigation">
+        <ul>
+            <div class="arrow-shape-left"></div>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="locations.html">Locations</a></li>
+            <li>Order Online</li>
+            <div class="arrow-shape-right"></div>
+        </ul>
+    </nav>
+    <div id="contentstart">
+        <article>
+            <form action="results.html">
+                <h2 class="page-title">Contact Us</h2>
+                <span><p class="requiredinfo">* Indicates a required field</p></span>
+                <fieldset class="contactinfo">
+                    <legend>Contact Information</legend>
+                    <label for="firstname">
+                        <span>*</span>
+                        First name
+                        <input type="text" name="firstname" id="firstname" required />
+                    </label>
+                    <label for="lastname">
+                        <span>*</span>
+                        Last name
+                        <input type="text" name="lastname" id="lastname" required />
+                    </label>
+                    <label for="email">
+                        Email
+                        <input type="email" name="email" id="email" placeholder="address@example.com" />
+                    </label>
+                    <label for="phone">
+                        Phone
+                        <input type="tel" name="phone" id="phone" />
+                    </label>
+                    <label>
+                        I am writing a...
+                        <select>
+                            <option value="comment">Comment/Feedback</option>
+                            <option value="complaint">Complaint</option>
+                            <option value="question">Question</option>
+                        </select>
+                    </label>
+                    <label for="feedback">
+                        <textarea name="feedback" id="feedback" cols="50" rows="4" placeholder="Write message here"></textarea>
+                    </label>
+                </fieldset>
+                <fieldset class="contactpermission">
+                    <legend><span>*</span>May we contact you?</legend>
+                    <label for="contactyes">
+                        <input type="radio" name="contactresponse" id="contactyes" value="Yes" checked />
+                        Yes
+                    </label>
+                    <label for="contactno">
+                        <input type="radio" name="contactresponse" id="contactno" value="No" />
+                        No
+                    </label>
+                </fieldset>
+                <fieldset class="contactmethod">
+                        <legend>Preferred Contact Method</legend>
+                        <label>
+                            Email
+                            <input type="checkbox" name="">
+                        </label>
+                        <label>
+                            Phone
+                            <input type="checkbox" name="">
+                        </label>
+                    </fieldset>
+                <fieldset class="submitbutton">
+                    <input type="submit" id="submit" value="Submit" />
+                </fieldset>
+            </form>
+        </article>
+    </div>
+    <footer>
+        <nav class="sitenavigation">
+            <ul>
+                <li><a href="contactus.html">Contact Us</a></li>
+                <li class="socialMedia"><img class="socialMedia" src="images/facebook.svg"></li>
+                <li class="socialMedia"><img class="socialMedia" src="images/twitter.svg"></li>
+                <li class="socialMedia"><img class="socialMedia" src="images/instagram.svg"></li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
