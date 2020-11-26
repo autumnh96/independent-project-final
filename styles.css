@@ -45,7 +45,7 @@ table {
     border-right: 30px solid maroon;
     border-bottom: 20px solid transparent;
     position: absolute;
-    left: 66em;
+    left: 68vw;
     top: 10.4em;
     z-index: 2;
     -webkit-animation-duration: 1.5s;
@@ -63,7 +63,7 @@ table {
     border-left: 30px solid maroon;
     border-bottom: 20px solid transparent;
     position: absolute;
-    left: 27.3em;
+    left: 29vw;
     top: 10.4em;
     z-index: 2;
     -webkit-animation-duration: 1.5s;
@@ -84,49 +84,49 @@ table {
 
 @-webkit-keyframes sliding-arrow-right {
     0% {
-        left: 100em;
+        left: 100vw;
     }
     50% {
-        left: 80em;
+        left: 80vw;
     }
     100% {
-        left: 66em;
+        left: 68vw;
     }
 }
 
 @keyframes sliding-arrow-right {
     0% {
-        left: 100em;
+        left: 100vw;
     }
     50% {
-        left: 80em;
+        left: 80vw;
     }
     100% {
-        left: 66em;
+        left: 68vw;
     }
 }
 
 @-webkit-keyframes sliding-arrow-left {
     0% {
-        left: 5em;
+        left: 5vw;
     }
     50% {
-        left: 15em;
+        left: 15vw;
     }
     100% {
-        left: 27.3em;
+        left: 29vw;
     }
 }
 
 @keyframes sliding-arrow-left {
     0% {
-        left: 5em;
+        left: 5vw;
     }
     50% {
-        left: 15em;
+        left: 15vw;
     }
     100% {
-        left: 27.3em;
+        left: 29vw;
     }
 }
 
